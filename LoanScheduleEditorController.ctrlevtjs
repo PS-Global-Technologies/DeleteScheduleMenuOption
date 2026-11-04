@@ -1,0 +1,17 @@
+/**
+ * $boilerplate$
+*/
+
+new Object() {
+  postOpenInitialization: function(controller) {
+	com.misys.liq.LoanIQ.logInfo("Controller "+ controller + " action Name "+ actionName );
+    var widget = controller.getSubpartNamed("sendSelectedButton");
+     widget.setText("Dont Click");
+	 controller.getSubpartNamed("optionsMenu").disableValue("deleteScheduleMenuChoice");
+	 com.misys.liq.LoanIQ.logInfo("Controller "+ controller + " action Name "+ actionName );
+    return widget;
+  }
+}
+
+
+

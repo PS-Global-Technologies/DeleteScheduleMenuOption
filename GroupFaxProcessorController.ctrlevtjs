@@ -1,0 +1,14 @@
+/**
+ * $boilerplate$
+*/
+
+new Object() {
+  postOpenInitialization: function(controller) {
+    var widget = controller.getSubpartNamed("sendSelectedButton");
+     widget.setText("Dont Click");
+    return widget;
+  }
+}
+
+
+
