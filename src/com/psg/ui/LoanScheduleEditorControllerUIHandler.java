@@ -15,7 +15,7 @@ public class LoanScheduleEditorControllerUIHandler extends UIEventHandler {
 		            "LoanScheduleEditorControllerUIHandler eventSpec CALLED"
 		        );
 		ArrayList<List<String>> r = new ArrayList<>();
-		r.add(Arrays.asList("LoanScheduleEditorController", "postOpenInitialization", "postOpenInitialization"));
+		r.add(Arrays.asList("LoanScheduleEditor", "postOpenInitialization", "postOpenInitialization"));
 		return r;
 	}
 
